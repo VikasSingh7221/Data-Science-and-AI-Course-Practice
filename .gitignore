@@ -1,0 +1,39 @@
+# PyCharm
+.idea/
+*.iml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Test & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type checking & linting
+.mypy_cache/
+.ruff_cache/
+.pyright/
+
+# UV
+uv.lock
+pyproject.toml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# git
+.gitignore
